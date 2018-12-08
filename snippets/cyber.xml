@@ -19,4 +19,8 @@
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="cyber" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="cyber" />
 
+  <!-- External repos -->
+  <project path="external/perfetto" name="external_perfetto" remote="cyber" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="cyber" />
+
 </manifest>
