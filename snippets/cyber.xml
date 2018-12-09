@@ -59,4 +59,16 @@
   <project path="hardware/ril" name="hardware_ril" remote="cyber" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="cyber" />
 
+  <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="cyber" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="cyber" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="cyber" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="cyber" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cyber" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="cyber" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="cyber" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cyber" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cyber" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cyber" />
+
 </manifest>
