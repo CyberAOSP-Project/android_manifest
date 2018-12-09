@@ -51,4 +51,12 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cyber" />
   <project path="vendor/cyber" name="vendor_cyber" remote="cyber" />
 
+  <!-- Hardware repos -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="cyber" />
+  <project path="hardware/custom/keydisabler" name="hardware_custom_keydisabler" remote="cyber" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="cyber" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="cyber" />
+  <project path="hardware/ril" name="hardware_ril" remote="cyber" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="cyber" />
+
 </manifest>
