@@ -71,4 +71,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cyber" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cyber" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="cyber" clone-depth="1" />
+
 </manifest>
