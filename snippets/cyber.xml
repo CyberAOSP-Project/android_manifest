@@ -74,4 +74,12 @@
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="cyber" clone-depth="1" />
 
+  <!-- System Repos -->
+  <project path="system/bt" name="system_bt" remote="cyber" />
+  <project path="system/core" name="system_core" remote="cyber" />
+  <project path="system/extras" name="system_extras" remote="cyber" />
+  <project path="system/netd" name="system_netd" remote="cyber" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="cyber" />
+  <project path="system/vold" name="system_vold" remote="cyber" />
+
 </manifest>
