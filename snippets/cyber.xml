@@ -49,7 +49,7 @@
   <project path="build/kati" name="build_kati" remote="cyber" />
   <project path="bootable/recovery" name="bootable_recovery" remote="cyber" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cyber" />
-  <project path="vendor/cyber" name="vendor_cyber" remote="cyber" />
+  <project path="vendor/cyber" name="vendor_cyber_aosp" remote="cyber" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="cyber" />
