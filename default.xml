@@ -40,6 +40,18 @@
   <project groups="developers" name="platform/developers/samples/android" path="developers/samples/android" revision="c49d02ccc3e5ebd5f05a4fc077bd9ebf3d291870" />
   <project groups="developers,pdk-cw-fs,pdk-fs" name="platform/development" path="development" revision="60ec2abfed7a1f94e2dac78eb6c5faf8b17f8dd5" />
   <project groups="pdk-cw-fs,pdk" name="device/common" path="device/common" revision="68a1c1b00e3e58a10040b74dbfd6853b54ab18c2" />
+  <project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch" />
+  <project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch" clone-depth="1" />
+  <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch" />
+  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="vendor,qcom_sdm845" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="qcom_sdm845" />
   <project groups="pdk" name="device/generic/arm64" path="device/generic/arm64" revision="3fd397464154b05b19137618625989ac1d0fdecd" />
   <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="9e96e041bf3c9d5b57b11f921c6339e076478a7a" />
   <project groups="pdk" name="device/generic/car" path="device/generic/car" revision="2ea88da2fdedc033640fee59d826b192c0429346" />
