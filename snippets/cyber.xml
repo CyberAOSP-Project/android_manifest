@@ -70,6 +70,10 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cyber" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cyber" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cyber" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="cyber" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="cyber" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="cyber" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="cyber" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="cyber" clone-depth="1" />
