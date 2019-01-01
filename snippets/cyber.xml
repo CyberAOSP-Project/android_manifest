@@ -6,34 +6,34 @@
           revision="pie" />
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cyber" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="cyber" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio-caf_msm8952" revision="pie" remote="cyber" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt-caf" revision="pie" remote="cyber" />
-  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display-caf_msm8952" revision="pie" remote="cyber" />
-  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="cyber" />
-  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media-caf_msm8952" revision="pie" remote="cyber" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="cyber" />
-  <project path="hardware/ril-caf" name="hardware_ril-caf" revision="pie" remote="cyber" />
-  <project path="system/qcom" name="system_qcom" remote="cyber" />
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="cyber" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="cyber" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cyber" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="cyber" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio-caf_msm8952" revision="pie" remote="cyber" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt-caf" revision="pie" remote="cyber" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display-caf_msm8952" revision="pie" remote="cyber" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="cyber" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media-caf_msm8952" revision="pie" remote="cyber" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cyber" />
+  <project path="hardware/ril-caf" name="android_hardware_ril-caf" revision="pie" remote="cyber" />
+  <project path="system/qcom" name="android_system_qcom" remote="cyber" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="cyber" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="cyber" />
 
   <!-- External repos -->
-  <project path="external/perfetto" name="external_perfetto" remote="cyber" />
-  <project path="external/tinycompress" name="external_tinycompress" remote="cyber" />
+  <project path="external/perfetto" name="android_external_perfetto" remote="cyber" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="cyber" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="cyber" />
-  <project path="frameworks/base" name="frameworks_base" remote="cyber" />
-  <project path="frameworks/native" name="frameworks_native" remote="cyber" />
-  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="cyber" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="cyber" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cyber" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="cyber" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="cyber" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="cyber" />
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="cyber" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="cyber" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cyber" />
 
   <!-- General repos -->
-  <project path="bionic" name="bionic" remote="cyber" />
-  <project path="build/make" name="build" remote="cyber">
+  <project path="bionic" name="android_bionic" remote="cyber" />
+  <project path="build/make" name="android_build" remote="cyber">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -42,50 +42,49 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="cyber">
+  <project path="build/soong" name="android_build_soong" remote="cyber">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="build/kati" name="build_kati" remote="cyber" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="cyber" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cyber" />
-  <project path="vendor/cyber" name="vendor_cyber_aosp" remote="cyber" />
+  <project path="build/kati" name="android_build_kati" remote="cyber" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cyber" />
+  <project path="device/custom/sepolicy" name="android_device_custom_sepolicy" remote="cyber" />
+  <project path="vendor/cyber" name="android_vendor_cyber" remote="cyber" />
 
   <!-- Hardware repos -->
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="cyber" />
-  <project path="hardware/custom/keydisabler" name="hardware_custom_keydisabler" remote="cyber" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="cyber" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="cyber" />
-  <project path="hardware/ril" name="hardware_ril" remote="cyber" />
-  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="cyber" />
+  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="cyber" />
+  <project path="hardware/custom/keydisabler" name="android_hardware_custom_keydisabler" remote="cyber" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="cyber" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cyber" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cyber" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="cyber" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="cyber" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="cyber" />
-  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="cyber" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="cyber" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cyber" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="cyber" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="cyber" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cyber" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cyber" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cyber" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="cyber" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="cyber" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="cyber" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="cyber" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="cyber" />
-  <project path="packages/apps/CyberSettings" name="packages_apps_CyberSettings" remote="cyber" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cyber" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cyber" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="cyber" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="cyber" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cyber" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="cyber" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cyber" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cyber" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="cyber" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="cyber" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cyber" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cyber" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cyber" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="cyber" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="cyber"
 
   <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="cyber" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="cyber" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/bt" name="system_bt" remote="cyber" />
-  <project path="system/core" name="system_core" remote="cyber" />
-  <project path="system/extras" name="system_extras" remote="cyber" />
-  <project path="system/netd" name="system_netd" remote="cyber" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="cyber" />
-  <project path="system/vold" name="system_vold" remote="cyber" />
+  <project path="system/bt" name="android_system_bt" remote="cyber" />
+  <project path="system/core" name="android_system_core" remote="cyber" />
+  <project path="system/extras" name="android_system_extras" remote="cyber" />
+  <project path="system/netd" name="android_system_netd" remote="cyber" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="cyber" />
+  <project path="system/vold" name="android_system_vold" remote="cyber" />
 
 </manifest>
