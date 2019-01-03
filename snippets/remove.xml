@@ -54,6 +54,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/vixl" />
+  <remove-project name="platform/external/skia" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
