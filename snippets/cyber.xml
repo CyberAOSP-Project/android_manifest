@@ -24,6 +24,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="cyber" />
   <project path="external/vixl" name="android_external_vixl" remote="cyber" />
   <project path="external/skia" name="android_external_skia" remote="cyber" />
+  <project path="external/skqp" name="android_external_skqp" remote="cyber" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cyber" />

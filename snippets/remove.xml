@@ -55,6 +55,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/vixl" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/skqp" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
