@@ -22,6 +22,7 @@
   <!-- External repos -->
   <project path="external/perfetto" name="android_external_perfetto" remote="cyber" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="cyber" />
+  <project path="external/vixl" name="android_external_vixl" remote="cyber" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cyber" />
