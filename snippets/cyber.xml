@@ -31,6 +31,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="cyber" />
   <project path="frameworks/native" name="android_frameworks_native" remote="cyber" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="cyber" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="cyber" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="cyber" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cyber" />
 
@@ -58,6 +59,7 @@
   <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="cyber" />
   <project path="hardware/custom/keydisabler" name="android_hardware_custom_keydisabler" remote="cyber" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="cyber" />
+  <project path="hardware/cyber/telephony" name="android_hardware_cyber_telephony" remote="cyber" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cyber" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cyber" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="cyber" />
