@@ -91,5 +91,6 @@
   <project path="system/netd" name="android_system_netd" remote="cyber" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="cyber" />
   <project path="system/vold" name="android_system_vold" remote="cyber" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="cyber" />
 
 </manifest>
